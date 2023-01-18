@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#particles-js{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+}
+
+
+
+.button{
+    padding: 10px 18px;
+    border: 1px solid #ff4900;
+    background-color: transparent;
+    color: floralwhite;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.button:hover{
+    color:#ffffff;
+    background-color: #ffffff;
+}
